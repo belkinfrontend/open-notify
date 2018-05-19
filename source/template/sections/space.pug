@@ -11,8 +11,19 @@
 
         #time
             p Current UTC time:
-            span#out_date
+                span#out_time
+                    span.hour hh
+                    | :
+                    span.min mm
+                    | :
+                    span.sec ss
+            #out_date
+            
+                
+
 
         #people
-            span#out_people
+            #out_people
+            #total_people
+            
 

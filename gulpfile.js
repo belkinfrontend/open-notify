@@ -38,7 +38,6 @@ gulp.task('styles:compile', function () {
 
 gulp.task ('js', function () {
     return gulp.src([
-        'source/js/space.js',
         'source/js/map.js',
         'source/js/date.js', 
         'source/js/people.js' 

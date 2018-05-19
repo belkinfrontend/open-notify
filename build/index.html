@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/main.min.css">
-    <title>TEST</title>
+    <title>Cleveroad - TEST</title>
   </head>
   <body>
     <div class="space">
@@ -18,9 +18,13 @@
       </div>
       <div id="section_2">
         <div id="time">
-          <p>Current UTC time:</p><span id="out_date"></span>
+          <p>Current UTC time:<span id="out_time"><span class="hour">hh</span>:<span class="min">mm</span>:<span class="sec">ss</span></span></p>
+          <div id="out_date"></div>
         </div>
-        <div id="people"><span id="out_people"></span></div>
+        <div id="people">
+          <div id="out_people"></div>
+          <div id="total_people"></div>
+        </div>
       </div>
     </div>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeiP20N9zSS4SBwxXdkwr4_MPA3bmyows&amp;callback=initMap" async defer></script>

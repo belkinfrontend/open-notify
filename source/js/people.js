@@ -1,5 +1,3 @@
-peopleCount();
-
 function peopleCount() {
 
     $.get(
@@ -10,15 +8,12 @@ function peopleCount() {
             console.log(data.people);
 
             data['people'].forEach(function (d) {
-                $('#people').append('<li>' + d['name'] + '</li>');
+                $('#out_people').append('<li>' + '<img src="images/person.svg">' + d['name'] + '</li>');    
             });
-
-
-            //document.getElementById("out_location").innerHTML = "longitude: " + longitude  + ", " + "latitude: " + latitude;
-
-
+            $('#total_people').append('Total amount: ' + data.people.length + ' people on ISS');
         }
 
     );
 
 };
+peopleCount();

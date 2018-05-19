@@ -1,9 +1,11 @@
 body {
-    font-family: $ff-main;
-    font-size: 1rem;
+    font-size: 1.5rem;
     line-height: 1.2;
     height: 100%;
     background: #eee;
+    color: #212121;
+    background-image: url(../images/bg.jpeg);
+    //text-shadow: #fff 2px 2px 2px;
 }
 html {
     box-sizing: border-box;
@@ -29,4 +31,7 @@ ol {
 :active, :hover, :focus {
     outline: 0;
     outline-offset: 0;
+}
+p {
+    margin: 0;
 }
