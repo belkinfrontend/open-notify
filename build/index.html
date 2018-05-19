@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.min.css">
+    <title>TEST</title>
+  </head>
+  <body>
+    <div class="space">
+      <div id="section_1">
+        <div id="location">
+          <p>ISS is now located at:</p><span id="out_location"></span>
+        </div>
+        <div id="map"></div>
+      </div>
+      <div id="section_2">
+        <div id="time">
+          <p>Current UTC time:</p><span id="out_date"></span>
+        </div>
+        <div id="people"><span id="out_people"></span></div>
+      </div>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeiP20N9zSS4SBwxXdkwr4_MPA3bmyows&amp;callback=initMap" async defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>

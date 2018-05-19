@@ -1,0 +1,28 @@
+.space {
+    display: flex;
+
+    #section_1 {
+        
+        #location {
+            background: red;
+        }
+
+        #map {
+            width: 500px;
+            height: 250px;
+        }
+
+    }
+    #section_2 {
+        
+        #time {
+            background: blue;
+            
+        }
+
+        #people {
+            background: yellow;
+        }
+
+    }
+}
