@@ -1,15 +1,16 @@
 .space {
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-around;
-    flex-flow: row wrap; //margin: 0 auto;
+    align-items: stretch;
+
+    
     
 
     #section_1 {
         flex-basis: 800px;
         flex-grow: 1;
         margin: 10px;
-
-
 
         #location {
             border: $bord;

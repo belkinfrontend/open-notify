@@ -41,7 +41,6 @@ gulp.task ('js', function () {
         'source/js/map.js',
         'source/js/date.js', 
         'source/js/people.js' 
-//          'source/js/index.js'
     ])
     .pipe(sourcemaps.init())
     .pipe(concat('main.min.js'))

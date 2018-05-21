@@ -44,7 +44,7 @@ var timerId;
 
 
 
-//get date
+//get month
 var d = new Date();
 var month=new Array("Jan","Feb","Mar","Apr","May","June",
 "July","Aug","Sep","Oct","Nov","Dec");
